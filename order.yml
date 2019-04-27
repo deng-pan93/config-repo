@@ -14,5 +14,5 @@ PRODUCT: #服务名字
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  #规则的全路径
 girl:
-  name: xiaowei22
+  name: xiaowei
   age: 19
