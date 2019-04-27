@@ -13,3 +13,6 @@ spring:
 PRODUCT: #服务名字
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  #规则的全路径
+girl:
+  name: lili
+  age: 19
