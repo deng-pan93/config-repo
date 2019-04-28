@@ -9,6 +9,11 @@ spring:
     url: jdbc:mysql://127.0.0.1/springcloud?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
   jpa:
       show-sql: true
+  rabbitmq:
+    host: 192.168.81.128
+    port: 5672
+    username: dengpan
+    password: dp933632
 #修改负载均衡的规则
 PRODUCT: #服务名字
   ribbon:
