@@ -10,7 +10,7 @@ spring:
   jpa:
     show-sql: true
   rabbitmq:
-    host: 192.168.81.128   //虚拟机ip
+    host: 192.168.81.128
     port: 5672
     username: dengpan
     password: dp933632
