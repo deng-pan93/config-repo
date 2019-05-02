@@ -14,6 +14,9 @@ spring:
     port: 5672
     username: dengpan
     password: dp933632
+  redis:
+    host: localhost
+    port: 6379
 #修改负载均衡的规则
 PRODUCT: #服务名字
   ribbon:
