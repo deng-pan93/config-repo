@@ -1,3 +1,9 @@
+spring:
+  rabbitmq:
+    host: 192.168.81.128
+    port: 5672
+    username: dengpan
+    password: dp933632
 zuul:
   routes:
     #自定义的路由规则名称
