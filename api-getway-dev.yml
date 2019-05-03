@@ -17,7 +17,7 @@ zuul:
       sensitiveHeaders:
   ignored-patterns:
     - /**/product/listForOrder
-    - /**/product/list
+
 
 #暴露所有接口
 management:
