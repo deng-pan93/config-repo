@@ -1,0 +1,20 @@
+zuul:
+  routes:
+    #自定义的路由规则名称
+    myProduct:
+      #要访问的服务名字
+      serviceId: product
+      #自定义的访问路径
+      path: /myProduct/**
+#    product: /myProduct/**
+      #传递cookie
+      sensitiveHeaders:
+  ignored-patterns:
+    - /**/product/listForOrder
+
+#暴露所有接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
