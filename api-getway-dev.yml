@@ -5,6 +5,8 @@ spring:
     username: dengpan
     password: dp933632
 zuul:
+  #全局所有服务允许传递cookie
+  sensitive-headers:
   routes:
     #自定义的路由规则名称
     myProduct:
