@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: dp933632
-    url: jdbc:mysql://127.0.0.1/springcloud?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://192.168.43.84/springcloud?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
   jpa:
     show-sql: true
   rabbitmq:
